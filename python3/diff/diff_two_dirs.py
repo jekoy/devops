@@ -204,8 +204,7 @@ def print_results(results):
     print(f"\n相同文件 ({common_count})")
 import sys
 if __name__ == "__main__":
-    #dir1 = "/usr/home/houbo/"
-    #dir2 = "/var/named/"
+
     dir1 = sys.argv[1]
     dir2 = sys.argv[2]
     if not os.path.isdir(dir1):
